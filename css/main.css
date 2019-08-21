@@ -3,7 +3,8 @@ html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0; 
+  overflow-y: hidden;}
 
 section {
   min-height: 100%;

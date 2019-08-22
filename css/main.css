@@ -54,7 +54,7 @@ p.simple-card {
     width: 10;
     }
     .management-hierarchy .person > img {
-      height: 45px;
+      height: 50px;
       border: 2px solid #ee2938;
       border-radius: 50%;
       overflow: hidden;
@@ -67,7 +67,7 @@ p.simple-card {
       font-size: 10px;
       font-weight: bold;
       color: #ee2938;
-      margin: 0;
+      margin: 12px 0 0 0;
       position: relative;
       }
       .management-hierarchy .person > p.name b {
@@ -77,7 +77,7 @@ p.simple-card {
         content: '';
         position: absolute;
         width: 2px;
-        height: 8px;
+        height: 20px;
         background-color: #fff;
         left: 50%;
         top: 0;

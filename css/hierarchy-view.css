@@ -26,7 +26,7 @@
       .hv-wrapper .hv-item .hv-item-children .hv-item-child {
         padding: 0 6px;
         position: relative;
-        width: 27%;
+        width: 34%;
         }
         .hv-wrapper .hv-item .hv-item-children .hv-item-child:before, .hv-wrapper .hv-item .hv-item-children .hv-item-child:not(:only-child):after {
           content: '';

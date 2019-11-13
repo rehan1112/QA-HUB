@@ -4,7 +4,8 @@ html, body {
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
-  overflow-y: hidden;}
+  overflow-y: hidden; 
+  }
 
 section {
   min-height: 100%;
@@ -76,9 +77,9 @@ p.simple-card {
       .management-hierarchy .person > p.name:before {
         content: '';
         position: absolute;
-        width: 2px;
+        width: 1px;
         height: 20px;
-        background-color: #fff;
+        background-color: #cbd2e1;
         left: 50%;
         top: 0;
         transform: translateY(-100%);

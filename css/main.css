@@ -85,3 +85,40 @@ p.simple-card {
         transform: translateY(-100%);
         }
 		
+		.notification {
+      background-color: #fff;
+      padding: 0px 2px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: bold;
+      color: #ee2938;
+      margin: 12px 0 0 0;
+      position: relative;
+}
+      .management-hierarchy .person > p.notification:before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 20px;
+        background-color: #cbd2e1;
+        left: 50%;
+        top: 0;
+        transform: translateY(-100%);
+        }
+
+/*.notification:hover {
+  background: red;
+}*/
+
+.notification .badge {
+  position: absolute;
+  top: -13px;
+  right: -15px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background: #ee2938;
+  color: white;
+  font-size: 8px;
+  font-weight: normal;
+}
+

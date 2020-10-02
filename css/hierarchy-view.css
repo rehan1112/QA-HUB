@@ -25,7 +25,7 @@
       display: flex;
       justify-content: center; }
       .hv-wrapper .hv-item .hv-item-children .hv-item-child {
-        padding: 0 6px;
+        padding: 0 10px;
         position: relative;
         width: 40%;
         }

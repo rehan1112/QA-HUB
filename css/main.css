@@ -4,7 +4,9 @@ html, body {
   font-family: 'Poppins', sans-serif;
   padding: 0;
   margin: 0;
-  overflow-y: hidden; 
+  overflow-y: hidden;
+  overflow-x: scroll;
+
   }
 
 section {
@@ -84,7 +86,7 @@ p.simple-card {
         top: 0;
         transform: translateY(-100%);
         }
-		
+
 		.notification {
       background-color: #fff;
       padding: 0px 2px;
@@ -132,13 +134,13 @@ p.simple-card {
       margin: 12px 0 0 0;
       position: relative;
       }
-	  
+
 	        .management-hierarchy .person > p.sqaleads b {
         color: #fff;
 		font-size: 10px;
        font-weight: 400px;
         }
-	  
+
       .management-hierarchy .person > p.sqaleads:before {
         content: '';
         position: absolute;
